@@ -113,7 +113,7 @@ counter = 0
 for item_a, item_b in zip(menu, quantityList):
     counter += 1
     print("Item {2}: {0:20} Quantity: {1}".format(item_a, item_b, counter))
-print("Your total bill for your order above is €" + str(total))
+print("Your total bill for your order above is €" + str(round(total, 2)))
 print("Thank you for ordering!")
 
 print("End of program.")
